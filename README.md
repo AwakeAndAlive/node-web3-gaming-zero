@@ -17,7 +17,7 @@ In /server, create a .env file:
   PORT=3000
 npm install && pm2 start server.js --name poker-server
 
-#Client Setup
+# Client Setup
 
 In /server, create a .env file:
 Create .env with:
