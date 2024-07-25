@@ -29,6 +29,8 @@ npm install && export NODE_OPTIONS=--openssl-legacy-provider && npm run build
 Serve the Build:
 Use serve -s build
 
+For persistance it worked with npx: pm2 start npx --name poker-client -- serve -s build
+
 # Work in Progress Demo
 
 http://vps53990.publiccloud.com.br/
