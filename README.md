@@ -13,7 +13,7 @@ Install Dependencies:
 Install Node.js, npm, and MongoDB.
 
 In /server, create a .env file:
-  MONGO_ATLAS_URI=mongodb://localhost:27017/nome_do_banco
+  MONGO_ATLAS_URI=mongodb://localhost:27017/project_zero
   PORT=3000
 npm install && pm2 start server.js --name poker-server
 
