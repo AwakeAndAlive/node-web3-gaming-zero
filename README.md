@@ -23,13 +23,13 @@ In /server, create a .env file:
 Create .env with:
   REACT_APP_ENDPOINT=http://191.252.192.119:3000
 
-Install and Build (if node 20+, use this legacy openssl):
+Install and Build //if node 20+, use this legacy openssl:
 npm install && export NODE_OPTIONS=--openssl-legacy-provider && npm run build
 
 Serve the Build:
 Use serve -s build
 
-For persistance it worked with npx: pm2 start npx --name poker-client -- serve -s build
+For persistance it worked with npx: pm2 start npx --name poker-client -- serve -s build -l 47001 //using port 47001 for the client
 
 # Work in Progress Demo
 
